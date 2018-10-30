@@ -226,7 +226,7 @@ def most_points_scored
     end
     # binding.pry
   end
-  
+  player_name
 end
 
 most_points_scored
