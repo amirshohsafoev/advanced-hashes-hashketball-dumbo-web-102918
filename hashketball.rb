@@ -217,8 +217,11 @@ end
     #player_by_number("11")
 
 def most_points_scored
-  players
-  binding.pry
+  num_points = 0
+  player_name = ""
+  players.each do |value|
+    binding.pry
+  end
   
 end
 
