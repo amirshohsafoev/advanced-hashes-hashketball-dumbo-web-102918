@@ -207,7 +207,7 @@ def player_stats(player_name)
    stats.delete_if {|info, string| info == :player_name}
   #binding.pry
 end
-end
+#end
  def player_by_number(number)
   find_player_by_number = players.find {|player| player.fetch(:number) == number }
   #binding.pry
