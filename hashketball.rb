@@ -217,7 +217,10 @@ end
     #player_by_number("11")
 
 def most_points_scored
+  players
+  binding.pry
   
 end
 
+most_points_scored
 
